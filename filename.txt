@@ -1,0 +1,21 @@
+START
+MACRO
+ABC &x,&y
+L 1,&x
+S 1,&y
+MEND
+MACRO
+XYZ &d1,&d2,&d3
+L 2,&d1
+S 2,&d2
+ST 2,&d3
+MEND
+line 1
+line 2
+ST 1,D5
+ABC p,q
+line 3
+XYZ s,u,v
+line 4
+ABC t,w
+END

@@ -1,0 +1,14 @@
+START
+line 1
+line 2
+ST 1,D5
+L 1,p
+S 1,q
+line 3
+L 2,s
+S 2,u
+ST 2,v
+line 4
+L 1,t
+S 1,w
+END

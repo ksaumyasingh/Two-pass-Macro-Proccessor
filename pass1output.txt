@@ -1,0 +1,10 @@
+START
+line 1
+line 2
+ST 1,D5
+ABC p,q
+line 3
+XYZ s,u,v
+line 4
+ABC t,w
+END
